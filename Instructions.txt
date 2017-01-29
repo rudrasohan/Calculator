@@ -1,0 +1,94 @@
+Instructions for usage
+
+1->QUICK MODE
+
+you can write expressions like
+2+2*8-9+7
+7-8/2*6
+
+(limitation is brackets. Expressions like 2+2*(2+6) will give wrong answer)
+
+2->BASIC MODE
+
+ printf("press _ to just enter\n");
+    printf("press + to add\n");
+    printf("press - to subtract\n");
+    printf("press * to multiply\n");
+    printf("press / to divide\n");
+    printf("press a for sin(x)\n");
+    printf("press b for cos(x)\n");
+    printf("press c for tan(x)\n");
+    printf("press d for asin(x)\n");
+    printf("press e for acos(x)\n");
+    printf("press f for atan(x)\n");
+    printf("press g for sinh(x)\n");
+    printf("press h for cosh(x)\n");
+    printf("press i for tanh(x)\n");
+    printf("press j for exp(x)\n");
+    printf("press k for log(x)\n");
+    printf("press l for log10(x)\n");
+    printf("press m for pow(x,y)\n");
+    printf("press n for sqrt(x)\n");
+    printf("\nPress q to Quit\n");
+    
+    if you want to input a value normally then press _ or if you want to to directly use functions like sin or cos etc
+    then you can call the  appropriate functions.
+    
+    program will also ask that if you want to use a new value or use the previous result. 
+    
+    the program will ask how you want to use this value to the result.
+    Using _ will make the current entered value as the result.
+    
+    Eg - (a typical execution (cos(5+sin(85(in radians))))
+    Enter the choice of function
+_
+
+Press y to use the previous result or press n to give new value
+n
+
+Enter the value
+5
+5.000000
+Enter the way by which you want to use this number in your result
+_
+5.000000
+
+Enter the choice of function
+a
+
+Press y to use the previous result or press n to give new value
+n
+
+Enter the value
+85
+-0.176076
+Enter the way by which you want to use this number in your result
++
+4.823925
+
+Enter the choice of function
+b
+
+Press y to use the previous result or press n to give new value
+y
+0.111304
+Enter the way by which you want to use this number in your result
+_
+0.111304
+
+Enter the choice of function
+q
+
+limitation(It is quite complex to use)
+
+3-> MATRIX MODE
+
+normal
+
+limitation - result only appears after you give the quit command
+
+4->COMPLEX MODE
+
+normal
+
+gives polar form in degrees
