@@ -163,7 +163,7 @@ void comp()
      char x,ch;
   char post[max];
   int i=0;
-  
+  printf("\n Quick calculation MODE\n");
   printf("\nType the expression\n");
 //  scanf("%[^/n]",infix);
  // printf("%s",infix);
@@ -687,6 +687,7 @@ void complex()
      int ch;
     char choice,dummy;
     COMPLEX temp,temp1,c1;
+	printf("\n COMPLEX MODE");
         printf("Enter 1 for addition\n");
         printf("Enter 2 for substraction\n");
         printf("Enter 3 for multiplication\n");
